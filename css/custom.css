@@ -1,0 +1,15 @@
+﻿/* THis is cusotm css style sheet */
+body{
+	
+	color:teal;
+	padding-top:60x;
+}
+.StarterPage{
+padding: 30x 20x 15x 15x;
+  text-align: center;
+  color:lime;
+}
+.StarterPage p{
+	
+	font-size:50px;
+}
