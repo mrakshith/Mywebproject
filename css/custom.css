@@ -2,7 +2,7 @@
 body{
 	
 	color:teal;
-	padding-top:60x;
+	padding-top:60px;
 }
 .StarterPage{
 padding: 30x 20x 15x 15x;
@@ -12,4 +12,5 @@ padding: 30x 20x 15x 15x;
 .StarterPage p{
 	
 	font-size:50px;
+	color:blue;
 }
