@@ -1,16 +1,39 @@
-﻿/* THis is cusotm css style sheet */
-body{
-	
-	color:teal;
-	padding-top:60px;
+﻿
+/*
+ul#list-nav {
+	list-style-type: none;
+	margin-right: 10px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+	margin-top: 80px;
+ 
 }
-.StarterPage{
-padding: 30x 20x 15x 15x;
-  text-align: center;
-  color:lime;
+
+ul#list-nav li {
+	display: inline;
+	background-color: red;
+	margin: 5px;
+	padding-left:31px;
+	padding-right:31px; 
+	padding-bottom:4px;
+	padding-top:10px;
+ 
 }
-.StarterPage p{
-	
-	font-size:50px;
-	color:blue;
+
+ul#list-nav li a {
+	text-decoration: none;
+	color:black;
+	font-family: times, courier;
+	font-weight: bold;
+
 }
+
+ul#list-nav li a:hover {
+	background-color: white;
+  
+}
+.container{
+	background-color: green;
+	b
+}*/
+

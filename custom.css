@@ -1,0 +1,416 @@
+﻿ 	/* THis is cusotm css style sheet */
+body {
+ background-color: #F1F0D1;
+font-family: verdana, Tahoma, Arial, sans-serif;
+font-size: 18px;
+overflow: auto;
+}
+h1,h2,h3 {
+text-align: center;
+padding-left: 5%;
+color: #878E63; 
+}
+p {	
+	padding:2%;
+	color:#878E63;
+}
+img {
+	
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+#wrapper {
+	margin:0 auto;
+	max-width:100%;
+	width:100%;
+	background: #FEFBE8;
+	border:1px solid#878E63;	
+	border-radius: 2px;
+	box-shadow: 0 0 10px 0px rgba(12 3, 25, 0.8);
+}
+#callout {	
+	width:100%
+	height: auto;
+	background:#878E63;
+	overflow:hidden
+}
+#callout p {
+	text-align:right;
+	color:#F1F0D1;
+	font-size:13px;
+	padding:0.1% 0.5%;
+}	
+#callout p a{
+color:#F1F0D1;
+text-decoration:none;
+}
+header {	
+	width:60%;
+	min-height:50px;
+	padding:1px;
+	text-align:center;
+}
+nav ul{
+	list-style:none;
+	margin:0;
+	padding-left:50px;
+}
+nav ul li{
+	float: left;
+	border: 1px solid #878E63;
+	width: 17%;
+}
+nav ul li a {
+	background:#F1F0D1;
+	display:inherit;
+	padding:5% 12%;
+	font-weight:bold;
+	font-size:14px;
+	color:#878E63;
+	text-decoration:none;
+	text-align:center;
+}
+nav ul li a:hover, nav ul li.active a{	
+	background-color:#878E63;
+	color:#F1F0D1;
+	
+}
+/*
+nav{
+	margin: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 0px;
+	width: 830px;
+	position:relative;
+	height: 85px;
+	display: block;
+	float: left;
+	z-index: 10;
+}
+nav ul{
+	margin: 0;
+	padding-left:50px;
+	list-style: none;
+}
+nav ul li{
+	position: relative;
+	display: inline;
+	margin: 0px;
+	padding-top: 33px;
+	padding-right: 21px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: left;
+	overflow: visible;
+}
+nav ul li a{
+	color: #9A9A9A;
+	text-decoration: none;
+	text-transform:uppercase;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: block;
+}
+nav ul li a.current{
+	color:#000000;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: #000000;
+	}*/
+
+
+.banner img{
+	
+	width:100%;
+	border-top: 1px solid #878E63;
+	border-bottom: 1px solid #878E63;
+}
+.clearfix{
+	clear:both;
+}
+.overview{
+	text-align:center;	
+	font-size:25px;
+}
+.left-col{
+ width:55%;
+ margin:1% 1% 1% 1%;
+ float:left;
+}
+.sidebar{	
+	width:40%;
+	float:right;
+	margin:1%;
+	text-align:center;
+}
+.calltoaction{
+	
+	float:right;
+	margin:0 auto;
+	width: 100%;
+	height:auto;
+	padding:1%;
+}
+.section{
+	width:29%;
+	float:left;
+	margin:2% 2%;
+	text-align:center;
+}
+footer{
+
+	background:#878E63;
+	width:100%;
+	overflow:hidden;
+}
+footer p, footer h3{
+	color:#F1F0D1
+}
+footer p a{
+	color:#F1F0D1
+	text-decoration:none;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+	
+li{
+	display:inline;
+}
+ul li img{
+	
+	height:50px;
+}
+/*.....................*/
+@media screen and (max-width: 478px){
+	body{
+	
+	font-size:13px;
+}
+}
+@media screen and (max-width: 740px){
+nav{
+	width:100%;
+	margin-bottom:10px;
+}
+nav ul{
+	list-style:none;
+	margin:0 auto;
+	padding-left: 0;
+}
+nav ul li{
+	text-align:center;
+	margin-left:0 auto;
+	width:100%;
+	border-top: 1px solid #878E68;
+	border-right:0px solid #878E68;
+	border-bottom:1px solid #878E68;
+	border-left:0px solid #878E68;;
+}
+nav ul li a{
+	padding:8px 0;
+	font-size:16px;
+}
+.left-col{
+	width:100%;
+}
+.sidebar{
+	width:100%;
+}
+.section{
+	float:left;
+	margin:0;
+	width:100%;
+}
+}
+
+
+body {font-family:Arial, Sans-Serif;}
+ 
+            #container {
+width:400px;margin:0 auto;}
+ 
+            /* Nicely lines up the labels. */
+            form label {display:inline-block; width:140px;}
+ 
+            /* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
+            form input[type="text"],
+            form input[type="password"],
+            form input[type="email"] {width:160px;}
+ 
+            form .line {clear:both;}
+            form .line.submit {text-align:center;}
+span{
+	color:blue;
+}         
+
+
+
+body{
+  background:#b4b4b4;
+}
+
+#registration-form {
+  font-family:'Open Sans Condensed', sans-serif;
+	width: 400px;
+  min-width:250px;
+	margin: 20px auto;
+	position: relative;
+}
+
+#registration-form .fieldset {
+	background-color:#d5d5d5;
+
+	border-radius: 3px;
+  
+}
+
+ #registration-form legend {
+	text-align: center;
+	background: #364351;
+	width: 100%;
+	padding: 30px 0;
+	border-radius: 3px 3px 0 0;
+	color: white;
+font-size:2em;
+}
+
+.fieldset form{
+  border:1px solid #2f2f2f;
+  margin:0 auto;
+  display:block;
+  width:100%;
+  padding:30px 20px;
+  box-sizing:border-box;
+  border-radius:0 0 3px 3px;
+}
+.placeholder #registration-form label {
+	display: none;
+}
+ .no-placeholder #registration-form label{
+margin-left:5px;
+  position:relative;
+  display:block;
+  color:grey;
+  text-shadow:0 1px white;
+  font-weight:bold;
+}
+/* all */
+::-webkit-input-placeholder { text-shadow:1px 1px 1px white; font-weight:bold; }
+::-moz-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* firefox 19+ */
+:-ms-input-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* ie */
+#registration-form input[type=text] {
+	padding: 15px 20px;
+	border-radius: 1px;
+  margin:5px auto;
+  background-color:#f7f7f7;
+	border: 1px solid silver;
+
+	-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  -webkit-transition:background-color .5s ease;
+-moz-transition:background-color .5s ease;
+-o-transition:background-color .5s ease;
+-ms-transition:background-color .5s ease;
+transition:background-color .5s ease;
+}
+.no-placeholder #registration-form input[type=text] {
+	padding: 10px 20px;
+}
+
+#registration-form input[type=text]:active, .placeholder #registration-form input[type=text]:focus {
+	outline: none;
+	border-color: silver;
+  background-color:white;
+}
+
+#registration-form input[type=submit] {
+  font-family:'Open Sans Condensed', sans-serif;
+  text-transform:uppercase;
+  outline:none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #5C8CA7;
+	padding: 10px;
+	color: white;
+	border: 1px solid #3498db;
+	border-radius: 3px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+  position:relative;
+  top:0;
+}
+
+.plan{
+	list-style-type:none;
+}
+#registration-form input[type=submit]:hover {
+	background-color: #2980b9;
+}
+
+#registration-form input[type=submit]:active {
+background:#5C8CA7;
+}
+
+
+.parsley-error-list{
+background-color:#C34343;
+padding: 5px 11px;
+margin: 0;
+list-style: none;
+border-radius: 0 0 3px 3px;
+margin-top:-5px;
+  margin-bottom:5px;
+  color:white;
+  border:1px solid #870d0d;
+  border-top:none;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position:relative;
+  top:-1px;
+  text-shadow:0px 1px 1px #460909;
+    font-weight:700;
+  font-size:12px;
+}
+.parsley-error{
+	border-color:#870d0d!important;
+  border-bottom:none;
+}
+#registration-form select{
+	width:100%;
+	padding:5px;
+}
+::-moz-focus-inner {
+  border: 0;
+}
+#copyright{
+	text-align:center;
+}
+.main-col h2{
+	text-decoration:underline;color:black;
+}
+.section h3{
+		text-decoration:underline;color:black;
+
+}
